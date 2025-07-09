@@ -26,6 +26,9 @@ This repository provides SAS scripts, templates, and resources for generating sa
    - Launch SAS and execute:
      ```sas
      %include "programs/dx_07.sas";
+     %include "programs/di_03.sas";
+     %include "programs/do_01.sas";
+     %include "programs/du_01.sas";
      ```
 
 ## Repository Structure
