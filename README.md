@@ -16,7 +16,7 @@ This repository provides SAS scripts, templates, and resources for generating sa
 
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/<your-username>/<your-repo>.git
+   git clone https://github.com/timothyLbullock/Medical-Device-Data-Sample--CDISC-Standardization.git
    ```
 
 2. **Prepare Your SAS Environment**
