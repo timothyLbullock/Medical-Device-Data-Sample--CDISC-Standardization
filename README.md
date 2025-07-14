@@ -21,24 +21,21 @@ This repository provides SAS scripts, templates, and resources for generating sa
 
 2. **Prepare Your SAS Environment**
    - Ensure SAS is installed and configured.
-   - Place your raw data files in the `data/raw/` directory.
+   - Define the "pathn" macro variable as your root pathway in main.sas.
 
 3. **Run the Example Program**
    - Launch SAS and execute:
      ```sas
-     %include "programs/dx_07.sas";
-     %include "programs/di_03.sas";
-     %include "programs/do_01.sas";
-     %include "programs/du_01.sas";
+     %include "programs/main.sas";
      ```
 
 ## Repository Structure
 
 ```
-data/           # Example and raw data files
-docs/           # Additional documentation
-programs/       # SAS programs and macros
-.github/        # GitHub configuration, issue, and PR templates
+SAS Transport Files/   # Example resulting SAS Transport Files
+docs/                  # Additional documentation
+programs/              # SAS programs and macros
+.github/               # GitHub configuration, issue, and PR templates
 ```
 
 ## License
